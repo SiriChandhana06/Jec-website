@@ -1,11 +1,12 @@
 import React from 'react'
-import { Button } from 'flowbite-react';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Navbar from './Components/Navbar'
 
 export default function App() {
   return (
-    <div>
-       
-    </div>
+    <BrowserRouter>
+       <Navbar />
+    </BrowserRouter>
     
   )
 }
