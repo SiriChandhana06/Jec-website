@@ -1,17 +1,125 @@
 import React from 'react'
-import { Carousel } from 'flowbite-react';
+import { Carousel,Button,List } from 'flowbite-react';
+import Jec1 from '../assets/jec1.png'
+import Jec2 from '../assets/jec2.png'
+import Course1 from '../assets/Course1.png'
+import Course2 from '../assets/Course2.png'
+
+
 
 export default function Home() {
   return (
+    <div className=''>
+
+    
     <div className="h-96">
-      {/* <Carousel>
-        <img src="data:image/jpeg;base64,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" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
-      </Carousel> */}
+      <Carousel>
+        <img src={Jec1} alt="..." />
+        <img src={Jec2} alt="..." />
+
+      </Carousel>
      
+    </div>
+
+    <div>
+<h1 className='text-xl md:text-2xl font-semibold text-blue-700 text-center mt-6'>A Journey of Thousand Miles Begins with a Single Step</h1>
+    </div>
+
+    <div>
+    <span className="self-center whitespace-nowrap flex flex-col justify-center items-center ml-2 md:ml-8"><span className='text-blue-700 text-2xl font-extrabold xl:text-6xl sm:text-4xl'>JAYA ENGINEERING COLLEGE</span> <span className='text-lg font-semibold text-black mt-1  text-wrap text-center'>Approved by AICTE, New Delhi | Affiliated to Anna University , Chennai</span> 
+        </span>
+    </div>
+
+<div className='w-full flex justify-center items-center mt-8 p-3'>
+<div className='w-full lg:w-4/5 '>
+    <List className='text-black text-justify flex flex-col gap-6'>
+      <List.Item className='text-black text-md' >Jaya Engineering College (JEC) is an ISO 9001:2000 certified institution founded in the year 1995 with a focus on technological innovation, entrepreneurship and character building to the students. The college offers 9 UG courses and 7 PG courses. JEC is Affiliated to Anna University, Chennai and approved by AICTE, New Delhi. The college management team consists of well-experienced and committed Academicians and Administrators.</List.Item>
+      <List.Item className='text-black text-md text-justify' >Situated close to the Chennai Metropolis, the college is one of the foremost centres of graduate and professional education in the state of Tamilnadu. The range and depth of resources at the college have few peers. </List.Item>
+      
+    </List>
+    </div>
+</div>
+    
+    <div>
+      <h1 className='text-xl md:text-2xl lg:text-3xl text-center font-bold mb-9'>Explore JEC Courses</h1>
+    </div>
+
+
+    <div className=" flex justify-around flex-wrap gap-6">
+<div className=''>
+
+      <Carousel className='w-96 h-96 border-b-2 border-l-2 border-r-2' indicators={false}>
+        <div className='flex flex-col justify-center items-center'>
+        <img src={Course1} alt="..." />
+          <h1 className='text-black text-center text-md font-medium mt-3'>Electrical & Electronical Engineering</h1>
+          <List className='mt-2 flex flex-col gap-2 text-justify'>
+          <List.Item className='text-black text-sm '>Regular industrial Visit to Core Industries and field visit to TNEB and treatment plants.</List.Item>
+          <List.Item className='text-black text-sm '>Well equipped and sophisticated fully functional laboratories.</List.Item>
+          </List>
+          <div className=' '>
+          <Button color="blue" pill>View More</Button>
+          </div>
+        </div>
+        
+      </Carousel>
+</div>
+      
+      <div>
+
+      <Carousel className='w-96 h-96 border-b-2 border-l-2 border-r-2' indicators={false}>
+        <div className='flex flex-col justify-center items-center'>
+        <img src={Course2} alt="..." />
+          <h1 className='text-black text-center text-md font-medium mt-3'>Master of Computer Application</h1>
+          <List className='mt-2 flex flex-col gap-2'>
+          <List.Item className='text-black text-sm '>The department offers three year MCA Course. It has a team of highly qualified.</List.Item>
+          <List.Item className='text-black text-sm '>Well equipped laboratories and dedicated,motivated faclty.</List.Item>
+          </List>
+          <div className=' '>
+          <Button color="blue" pill>View More</Button>
+          </div>
+        </div>
+        
+      </Carousel>
+      </div>
+      
+    </div>
+
+
+    <div className='flex justify-center gap-14 mt-10 border border-t-2 border-b-2 p-4 flex-wrap'>
+
+    <div className='flex flex-col text-center text-nowrap  w-80 '>
+    <h1 className='text-blue-900 font-medium'>Our Track Record</h1>
+    <span className='text-black font-normal'>The finest performance by our graduates.</span>
+  </div>
+
+<div className='flex flex-col text-center text-nowrap   w-32'>
+  <span className='text-black text-lg font-semibold'>34,500</span>
+  <span className='text-black text-lg font-semibold'>Active Learners</span>
+</div>
+
+<div className='flex flex-col text-center text-nowrap   w-32'>
+  <span className='text-black text-lg font-semibold'>INR 25 LPA
+</span>
+  <span className='text-black text-lg font-semibold'>Highest Salary</span>
+  <span className='text-black text-lg font-semibold'> Offered</span>
+</div>
+
+<div className='flex flex-col text-center text-nowrap   w-32'>
+  <span className='text-black text-lg font-semibold'>52%
+ </span>
+  <span className='text-black text-lg font-semibold'>Average Salary</span>
+  <span className='text-black text-lg font-semibold'>Hike</span>
+</div>
+
+<div className='flex flex-col text-center text-nowrap   w-32'>
+  <span className='text-black text-lg font-semibold'>300+
+
+ </span>
+  <span className='text-black text-lg font-semibold'>Hiring Partners</span>
+</div>
+
+    </div>
+
     </div>
   )
 }
