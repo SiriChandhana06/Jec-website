@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <Navbar  >
-      <div className='flex flex-wrap justify-center items-center' >
+      <div className='flex flex-wrap justify-center items-center w-full' >
 
       
         <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/'>Home</Link></Button>
@@ -107,9 +107,9 @@ function Header() {
         </Dropdown>
         </div>
  
-        <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/'>R</Link>IQAC</Button>
+        <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/'>IQAC</Link></Button>
 
-        <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/'>R</Link>Contact Us</Button>
+        <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/'>Contact Us</Link></Button>
         </div>
     </Navbar>
   );
