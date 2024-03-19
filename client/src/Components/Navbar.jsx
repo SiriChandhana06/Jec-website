@@ -26,7 +26,7 @@ const year = date.getFullYear();
 
 </div>
 <div style={{ display: 'flex', justifyContent: 'center' }} className='mt-6'>
-  <hr style={{ color: 'grey', backgroundColor: 'grey', height: 2, width: '80%' }}  />
+  <hr style={{ color: 'grey', backgroundColor: 'grey', height: 2, width: '100%' }}  />
 </div>
 </div>
 
