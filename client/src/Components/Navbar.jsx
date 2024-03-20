@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';import Jeclogo from '../assets/jeclogo.png';
+import React, { useState, useEffect } from 'react';
+import Jeclogo from '../assets/jeclogo.png';
 import Navicon1 from '../assets/navicon1.png';
 import Navicon2 from '../assets/navicon2.png';
 
 function myNavbar() {
-  const date = new Date();
-
-// Get the current year
+const date = new Date();
 const year = date.getFullYear();
   return (
     <div>
