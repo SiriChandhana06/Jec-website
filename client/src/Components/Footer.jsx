@@ -29,7 +29,7 @@ const year = date.getFullYear();
           <div className="flex justify-around">
             <div>
               <Footer.Title title="Quick Links" className='text-white' />
-              <Footer.LinkGroup col>
+              <Footer.LinkGroup col className='text-white'>
                 <Footer.Link href="#">About</Footer.Link>
                 <Footer.Link href="#">CEO</Footer.Link>
                 <Footer.Link href="#">Academic</Footer.Link>
