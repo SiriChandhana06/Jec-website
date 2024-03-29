@@ -71,8 +71,8 @@ function About(){
                 </div>
                 <div>
                 <div className="flex justify-center items-center h-screen">
-      <ImageSlider images={images} />
-    </div>
+                  <ImageSlider images={images} />
+                </div>
                 </div>
             <div className="md:flex gap-4">
                 <div className="">
