@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  
     return (
       <nav className="">
         <div className=" mx-auto ">
@@ -20,7 +19,7 @@ function Header() {
   
           <div>
           <Dropdown label="About JEC" outline color='white' dismissOnClick={false} style={{ backgroundColor: 'white', color: 'black', border: 'none'}} >
-              <Dropdown.Item>About</Dropdown.Item>
+              <Dropdown.Item><Link to='/about'>About</Link> </Dropdown.Item>
               <Dropdown.Item>Messages</Dropdown.Item>
               <Dropdown.Item>Governing Body</Dropdown.Item>
               <Dropdown.Item>RTI</Dropdown.Item>
