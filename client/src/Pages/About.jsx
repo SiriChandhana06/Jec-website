@@ -21,7 +21,7 @@ function About(){
                         <h1 className="font-semibold border-b-2 border-gray-600 md:text-2xl">Overview</h1>
                     </div>
                     <div>
-                        <div className="flex px-6 pt-6 pb-2 md: px-10">
+                        <div className="flex px-6 pt-6 pb-2 md: px-12">
                         <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 18 18"><path fill="#0038ff" d="M11 3V0H2v14H0v1h7v-5h2V8h5V3zm-5 7H4V8h2zm0-3H4V5h2zm0-3H4V2h2zm3 3H7V5h2zm0-3H7V2h2zm4 3h-2V5h2zm1 4h2v5H8v-5h2V9h4z"/></svg></div>
                         <h1 className="text-justify md:text-xl">Jaya Engineering College (JEC) is an ISO 9001:2000 certified institution founded in the year 1995 with a focus on technological innovation, entrepreneurship and character building to the students. The college offers 9 UG courses and 7 PG courses. JEC is Affiliated to Anna University, Chennai and approved by AICTE, New Delhi. The college management team consists of well-experienced and committed Academicians and Administrators.</h1></div>
