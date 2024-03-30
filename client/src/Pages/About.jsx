@@ -1,12 +1,13 @@
-import Edit from '../Components/Edit';
+
 import ImageSlider from '../Components/Image';
+import Edit from '../Components/Edit';
 
 function About(){
-        const images = [
-          'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736881_640.jpg',
-          'https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=',
-          'https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=',
-        ];
+    const images = [
+        'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736881_640.jpg',
+        'https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=',
+        'https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=',
+      ];
     return(
         <div>
             <div className="m-4 sm:m-6 md:m-10">
@@ -21,7 +22,7 @@ function About(){
                         <h1 className="font-semibold border-b-2 border-gray-600 md:text-2xl">Overview</h1>
                     </div>
                     <div>
-                        <div className="flex px-6 pt-6 pb-2 md: px-12">
+                        <div className="flex px-6 pt-6 pb-2 md: px-10">
                         <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 18 18"><path fill="#0038ff" d="M11 3V0H2v14H0v1h7v-5h2V8h5V3zm-5 7H4V8h2zm0-3H4V5h2zm0-3H4V2h2zm3 3H7V5h2zm0-3H7V2h2zm4 3h-2V5h2zm1 4h2v5H8v-5h2V9h4z"/></svg></div>
                         <h1 className="text-justify md:text-xl">Jaya Engineering College (JEC) is an ISO 9001:2000 certified institution founded in the year 1995 with a focus on technological innovation, entrepreneurship and character building to the students. The college offers 9 UG courses and 7 PG courses. JEC is Affiliated to Anna University, Chennai and approved by AICTE, New Delhi. The college management team consists of well-experienced and committed Academicians and Administrators.</h1></div>
@@ -33,7 +34,7 @@ function About(){
                 </div>
                 <div className="md:flex ">
                     <div className="m-6 md:m-10">
-                        <div className="border-2 border-solid border-black shadow-4xl shadow-gray-600 px-6 pb-4">
+                        <div className="border-2  border-black shadow-lg shadow-gray-600 px-6 pb-4">
                             <h1 className="text-red-500 text-xl flex justify-center font-semibold border-b-2 border-gray-600">Institute Vision</h1>
                             <div className="pt-4 pl-4">
                             <ul className="list-disc">
@@ -67,17 +68,14 @@ function About(){
                         <h1 className="text-justify md:text-xl pl-10">The undergraduate and post-graduate courses in the college offers its students the optimum setting in tertiary education specialized courses with a contingent of accessible and dedicated faculty members, within a large highly diverse college offerings nearly unlimited academic opportunities and resources. The lecture halls and laboratory areas are modern and well-equipped. The college has extensive links with IT facilities for the benefit of the students.</h1>
                         <h1 className="text-justify pt-6 md:text-xl pl-10"> The college ensures that all students have the opportunity to acquire and develop personal and transferable skills, such as technical communication and team-working skills, which are directly appropriate to their future courses.</h1>
                     </div>
-                    {/* <ImageSlider/> */}
-                </div>
-                <div>
-                <div className="flex justify-center items-center h-screen">
+                    <div className="flex justify-center items-center pb-4 pt-4">
                   <ImageSlider images={images} />
                 </div>
                 </div>
             <div className="md:flex gap-4">
                 <div className="">
                 <div>
-                    <div className=" pl-16 pb-4 ">
+                    <div className=" pl-16 pb-4 pt-10">
                         <div className="flex">
                             <div className="">
                             <div className="bg-blue-300 p-4 md: h-16">
@@ -129,7 +127,7 @@ function About(){
                     </div>
                 </div>
                 </div>
-                 <div className="pb-6 md:w-5/6 pb-20"> 
+                 <div className="pb-6 md:w-5/6 pt-10"> 
                     <Edit/>  
                  </div>
                 </div>
