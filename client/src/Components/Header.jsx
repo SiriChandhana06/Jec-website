@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Dropdown,Button } from 'flowbite-react';
 import { Link } from 'react-router-dom';
+import Coe from '../Pages/Coe';
 
 
 
@@ -31,7 +32,7 @@ function Header() {
           </Dropdown>
           </div>
   
-          <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/'>COE</Link></Button>
+          <Button outline color='white' style={{ backgroundColor: 'white', color: 'black', border: 'none'}}><Link to='/coe'>COE</Link></Button>
        
   
           <div>
