@@ -36,40 +36,26 @@ function Header() {
   
           <div>
           <Dropdown label="Academic" outline color='white' dismissOnClick={false} style={{ backgroundColor: 'white', color: 'black', border: 'none'}} >
-              <Dropdown.Item>About</Dropdown.Item>
-              <Dropdown.Item>Messages</Dropdown.Item>
-              <Dropdown.Item>Governing Body</Dropdown.Item>
-              <Dropdown.Item>RTI</Dropdown.Item>
-              <Dropdown.Item>Group of Institute</Dropdown.Item>
-              <Dropdown.Item>Governing</Dropdown.Item>
-              <Dropdown.Item>HOD's</Dropdown.Item>
-              <Dropdown.Item>Stationary Bodies</Dropdown.Item>
+              <Dropdown.Item>Calendar</Dropdown.Item>
+              <Dropdown.Item>curriculum & Syllabus</Dropdown.Item>
+              <Dropdown.Item>Exam cell</Dropdown.Item>
+              <Dropdown.Item>Scholarship</Dropdown.Item>
+              <Dropdown.Item>Naan Mudhalvan</Dropdown.Item>
           </Dropdown>
           </div>
           
           <div>
           <Dropdown label="Department" outline color='white' dismissOnClick={false} style={{ backgroundColor: 'white', color: 'black', border: 'none'}} >
-              <Dropdown.Item>About</Dropdown.Item>
-              <Dropdown.Item>Messages</Dropdown.Item>
-              <Dropdown.Item>Governing Body</Dropdown.Item>
-              <Dropdown.Item>RTI</Dropdown.Item>
-              <Dropdown.Item>Group of Institute</Dropdown.Item>
-              <Dropdown.Item>Governing</Dropdown.Item>
-              <Dropdown.Item>HOD's</Dropdown.Item>
-              <Dropdown.Item>Stationary Bodies</Dropdown.Item>
+              <Dropdown.Item>UG</Dropdown.Item>
+              <Dropdown.Item>PG</Dropdown.Item>
           </Dropdown>
           </div>
           
           <div>
           <Dropdown label="Placement" outline color='white' dismissOnClick={false} style={{ backgroundColor: 'white', color: 'black', border: 'none'}} >
-              <Dropdown.Item>About</Dropdown.Item>
-              <Dropdown.Item>Messages</Dropdown.Item>
-              <Dropdown.Item>Governing Body</Dropdown.Item>
-              <Dropdown.Item>RTI</Dropdown.Item>
-              <Dropdown.Item>Group of Institute</Dropdown.Item>
-              <Dropdown.Item>Governing</Dropdown.Item>
-              <Dropdown.Item>HOD's</Dropdown.Item>
-              <Dropdown.Item>Stationary Bodies</Dropdown.Item>
+              <Dropdown.Item>Placement cell</Dropdown.Item>
+              <Dropdown.Item>Smart training & AMCAT</Dropdown.Item>
+              <Dropdown.Item>Training programs</Dropdown.Item>
           </Dropdown>
           </div>
    
@@ -169,27 +155,18 @@ function Header() {
   
           <div>
           <Dropdown label="Academic" outline color='white' dismissOnClick={false} style={{ backgroundColor: 'white', color: 'black', border: 'none'}} >
-              <Dropdown.Item>About</Dropdown.Item>
-              <Dropdown.Item>Messages</Dropdown.Item>
-              <Dropdown.Item>Governing Body</Dropdown.Item>
-              <Dropdown.Item>RTI</Dropdown.Item>
-              <Dropdown.Item>Group of Institute</Dropdown.Item>
-              <Dropdown.Item>Governing</Dropdown.Item>
-              <Dropdown.Item>HOD's</Dropdown.Item>
-              <Dropdown.Item>Stationary Bodies</Dropdown.Item>
+              <Dropdown.Item>Calendar</Dropdown.Item>
+              <Dropdown.Item>curriculum & Syllabus</Dropdown.Item>
+              <Dropdown.Item>Exam cell</Dropdown.Item>
+              <Dropdown.Item>Scholarship</Dropdown.Item>
+              <Dropdown.Item>Naan Mudhalvan</Dropdown.Item>
           </Dropdown>
           </div>
           
           <div>
           <Dropdown label="Department" outline color='white' dismissOnClick={false} style={{ backgroundColor: 'white', color: 'black', border: 'none'}} >
-              <Dropdown.Item>About</Dropdown.Item>
-              <Dropdown.Item>Messages</Dropdown.Item>
-              <Dropdown.Item>Governing Body</Dropdown.Item>
-              <Dropdown.Item>RTI</Dropdown.Item>
-              <Dropdown.Item>Group of Institute</Dropdown.Item>
-              <Dropdown.Item>Governing</Dropdown.Item>
-              <Dropdown.Item>HOD's</Dropdown.Item>
-              <Dropdown.Item>Stationary Bodies</Dropdown.Item>
+              <Dropdown.Item>UG</Dropdown.Item>
+              <Dropdown.Item>PG</Dropdown.Item>
           </Dropdown>
           </div>
           

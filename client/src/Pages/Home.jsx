@@ -302,10 +302,11 @@ JEC Participated in one day training for students
 </div>
 
 
-<div className='w-full flex justify-center mt-20 gap-10 flex-wrap'>
-<img src={Img1} alt="" />
-<img src={Img2} alt="" />
-<img src={Img3} alt="" />
+<div className='w-full  flex justify-center items-center flex-wrap gap-3 lg:gap-8 mt-9 mb-9 xl:gap-16'>
+<div><img src={Img1} alt="" className='w-72 h-72 ' /></div>
+<div><img src={Img2} alt="" className='w-72 h-72 ' /></div>
+<div><img src={Img3} alt="" className='w-72 h-72 ' /></div>
+
 </div>
 
     </div>
