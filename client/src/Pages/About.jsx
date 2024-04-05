@@ -22,7 +22,7 @@ function About(){
                         <h1 className="font-semibold border-b-2 border-gray-600 md:text-2xl">Overview</h1>
                     </div>
                     <div>
-                        <div className="flex px-6 pt-6 pb-2 md: px-10">
+                        <div className="flex px-6 pt-6 pb-2 md:px-10">
                         <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 18 18"><path fill="#0038ff" d="M11 3V0H2v14H0v1h7v-5h2V8h5V3zm-5 7H4V8h2zm0-3H4V5h2zm0-3H4V2h2zm3 3H7V5h2zm0-3H7V2h2zm4 3h-2V5h2zm1 4h2v5H8v-5h2V9h4z"/></svg></div>
                         <h1 className="text-justify md:text-xl">Jaya Engineering College (JEC) is an ISO 9001:2000 certified institution founded in the year 1995 with a focus on technological innovation, entrepreneurship and character building to the students. The college offers 9 UG courses and 7 PG courses. JEC is Affiliated to Anna University, Chennai and approved by AICTE, New Delhi. The college management team consists of well-experienced and committed Academicians and Administrators.</h1></div>
@@ -32,9 +32,9 @@ function About(){
                         <h1 className="text-justify md:text-xl">  Situated close to the Chennai Metropolis, the college is one of the foremost centres of graduate and professional education in the state of Tamilnadu. The range and depth of resources at the college have few peers. Within easy reach on the same campus and other sites, the college combines all the advantages of a comprehensive institution in the Arts and Science with a full complement of professional schools. Among these are business, dentistry and an unusually complete array of paramedical professions, including pharmacy and physiotherapy. </h1> </div>
                     </div>
                 </div>
-                <div className="md:flex ">
-                    <div className="m-6 md:m-10">
-                        <div className="border-2  border-black shadow-lg shadow-gray-600 px-6 pb-4">
+                <div className=" mx-6 md:flex md:mx-10 justify-center md:space-x-16">
+                    <div className="w-full">
+                        <div className="border-2  border-black shadow-lg shadow-gray-600 h-auto md:h-60 md:w-[80%] px-6 pb-4">
                             <h1 className="text-red-500 text-xl flex justify-center font-semibold border-b-2 border-gray-600">Institute Vision</h1>
                             <div className="pt-4 pl-4">
                             <ul className="list-disc">
@@ -46,10 +46,10 @@ function About(){
                         </div>
                     </div>
                     <div>
-                    <div className="m-6 md:m-10">
-                        <div className="border-2 border-black shadow-lg shadow-gray-600 px-6 pb-4">
+                    <div className=" w-full pt-6 md:pt-0">
+                        <div className="border-2 border-black shadow-lg shadow-gray-600 h-auto md:h-60 px-6 pb-4">
                             <h1 className="text-red-500 text-xl flex justify-center font-semibold border-b-2 border-gray-600">Institute Mision</h1>
-                            <div className="pt-4 pl-4 pb-6 ">
+                            <div className="pt-4 pl-4 md:pl-4 flex-wrap">
                             <ul className="list-disc">
                                 <li>To Impart High quality Teaching and Learning for Engineering, Technology and Management Studies by providing State-of-art-infrastructure.</li>
                                 <li>To Provide Quality Education, Self discipline and Ethical values.</li>

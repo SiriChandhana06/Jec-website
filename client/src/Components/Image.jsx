@@ -15,39 +15,40 @@ const ImageSlider = ({ images }) => {
   console.log("Current Index:", currentIndex);
 
   return (
-      <div className="mx-10 flex-auto md:mx-40 ">
-       
+    <div className="mx-10 md:mx-40  pt-6">
+      <div className=' flex justify-center items-center'>
         <div className=''>
-        <button
-        //   style={{marginTop:'1200px'}}
-          onClick={goToPrevSlide}
-          className="absolute top-3/5 left-4 pt-64 transform -translate-y-1/2  align-center text-black md:pl-16 "
-        >
-          <ChevronLeftIcon className="w-10 h-10 md:w-24 h-24 " />
-        </button>
+          <button
+            //   style={{marginTop:'1200px'}}
+            onClick={goToPrevSlide}
+            className="align-center text-black md:pl-16"
+          >
+            <ChevronLeftIcon className="w-10 h-10 md:w-24 h-24" />
+          </button>
         </div>
 
         <div className='overflow-hidden rounded-xl'>
-        <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex}`}
-          className="w-full h-auto rounded-xl"
-        />
+          <img
+            src={images[currentIndex]}
+            alt={`Slide ${currentIndex}`}
+            className="w-full h-auto rounded-xl"
+          />
         </div>
 
 
         <div className=''>
-        <button
-        //   style={{marginTop:'1200px'}}
-          onClick={goToNextSlide}
-          className="absolute top-3/5 right-4 pb-48 transform -translate-y-1/2 align-center text-black md:pr-16 "
-        >
-          <ChevronRightIcon className="w-10 h-10 md:w-24 h-24" />
-        </button>
+          <button
+            //   style={{marginTop:'1200px'}}
+            onClick={goToNextSlide}
+            className="align-center text-black md:pr-16 "
+          >
+            <ChevronRightIcon className="w-10 h-10 md:w-24 h-24" />
+          </button>
         </div>
+      </div>
     </div>
   );
 };
- 
+
 
 export default ImageSlider;
