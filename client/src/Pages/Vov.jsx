@@ -22,7 +22,7 @@ function Vov(){
                         </div>
                         <div className='md:flex'>
                             <div className='flex justify-center md:px-16 py-6 h-auto w-full'>
-                                <img src={img} className=' '/>
+                                <img src={img} className=''/>
                             </div>
                             <div className='p-4'>
                                 <h1 className='text-md md:font-medium'>Delightful task! to rear the tender thought;<br/>To teach the young how to shoot;<br/>To pour the fresh, instruction over the mind ;<br/>To breathe the enlivening spirit, and<br/>To fix the generous purpose in the glowing heart.</h1>
